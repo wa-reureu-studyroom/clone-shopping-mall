@@ -1,7 +1,7 @@
 # clone-shopping-mall
 study theme : shopping mall clone coding
 
-## H&M 
+## [H&M](https://www2.hm.com/ko_kr/index.html) 
 *** BareMinimum
   * H&M 홈
   * 각 Nav바 연결된 페이지 구현 ( 적당히 )
