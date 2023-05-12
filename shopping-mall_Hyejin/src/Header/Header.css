@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: HM Sans Regular,HMSansHebrew-Regular,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+    cursor:pointer;
+    text-align:center;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+
+}
+
+nav{
+    margin: 16px 32px;
+}
+
+.logo > a{
+    /* border: 1px solid red; */
+    display: block;
+    /*display가 인라인 요소면 가로 세러 설정 씹힘 */
+    width: 60.61px;
+    height: 39.98px;
+}
+
+.first_nav{
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellowgreen; */
+    margin-bottom: 32px;
+    justify-content:space-between;
+    height: 72px;
+    align-items: center;
+
+}
+
+/* 스타일 컴포넌트 Button으로 구현 */
+#more-icon{ 
+    border:none;
+    background-color: #ffffff;
+    cursor:pointer;
+}
+
+/*메뉴 바 클릭 시 드롭바 start*/
+
+.drop-bar{
+    /* box-shadow:0 0 5px 5px rgba(0,0,0,0.042); */
+    width: 143px;
+    margin-top:10px;
+}
+
+
+.link-li{
+    padding: 8px 16px;
+    height: 50%;
+    /*32px*/
+}
+
+.link-li:hover{
+    background-color:#f4eddd;
+}
+
+.link-li:focus-within{
+    background-color:#f4eddd;
+}/*클릭 한 거 다른 거 클릭 전까지 효과 적용*/
+
+/*메뉴 바 클릭 시 드롭바 END*/
+
+.top_left >ul{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px dotted black; */
+}
+
+.second_nav{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    /* align-items:end; */
+    min-height: 40px;
+    
+}
+
+.top_right > ul{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px dotted black; */
+}
+
+.right_menu_child > label > a{
+    padding-left: 10px;
+}
+
+/*오른쪽 로그인 모달창 start*/
+
+.top_left{
+    position: relative;
+    /*로그인 모달 때문에 지정*/
+}
+
+.login-modal-btn{
+    background-color: #222;
+    font-size: 1.2rem;
+    color:#ffffff;
+    font-weight: bolder;
+    padding: 5px 20px;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login-modal-myaccount{
+    margin-bottom: 5px;
+}
+
+.login-modal-myaccount a{
+    color: #222;
+    font-weight: 300px;
+}
+
+.login-modal-signIn{
+    margin-top: 10px;
+}
+.login-modal-signIn a{
+    color: #666;
+}
+
+.login-modal-singIn:hover{
+    color:black;
+}
+
+/*오른쪽 로그인 모달창 END*/
+
+.center_second_menu ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+}
+
+.center_second_menu > ul > li >a{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.center_second_menu{
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    /* min-width:720px */
+}
+
+.center_second_search{
+    position: absolute;
+    right: 40px;
+    border-bottom: 1px solid black;
+}
+
+.center_second_search > input{
+    padding: 5px 10px;
+    border:none;
+    color:#222;
+}

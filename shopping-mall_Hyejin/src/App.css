@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+main{
+    /* border: 1px solid salmon; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    max-width: 1008px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+/*Main start*/
+
+.ad {
+    margin-top: 40px;
+}
+
+.green-01 > article{
+    background-image:url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/LOCAL%20ACTIVITIES/2023_s07/april_2023/GW_Offer_1920x640.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+    color: white;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.article-title{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+
+/*02*/
+.pic-02 {
+    background-image:url("https://image.hm.com/content/dam/global_campaigns/season_07/ladies/9717-golden-week/9717-3x2-1.jpg?imwidth=1536");
+    color: white;
+    background-position: 60% 0%; 
+    /*위치 조정*/
+    height: 950px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.p02-title {
+    padding: 20px;
+}
+
+.p02-title > .article02-title{
+    font-size: 42px;
+    font-weight: bolder;
+    line-height: 1.14286;
+    margin-bottom: 10px;
+}
+
+.p02-title > p {
+    font-size: 14px;
+    line-height: 1.28571;
+    font-weight: 400;
+}
+
+.pic-03 {
+    background-image:url('https://image.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s05/april/TCL5034-SGI-3x2.jpg?imwidth=564');
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 639px; /*??*/
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+.article03-title{
+    font-size: 62px;
+}
+
+.p03-title > p {
+    font-size: 24px;
+}
+
+.pg-04, .pg-05{
+    /* border: 1px dotted purple; */
+}
+
+.pg04-title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+    justify-content:space-between;
+    width: 100%;
+    
+    /*왜 굳이 width 100% 설정?*/
+}
+.p04-title > h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pic-06{
+    background-image:url('https://image.hm.com/content/dam/global_campaigns/season_07/ladies/9025c/henrick/henrick-preview/2007-3x2-4.jpg?imwidth=564');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 639px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.p06-title p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pic-07{
+    background-image:url('https://image.hm.com/content/dam/global_campaigns/season_07/home/7087b/7087B-3x2-1-summer-table-setting.jpg?imwidth=564');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 639px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+}
+/* .article06-title > p {
+    color: red;
+} 애 왜 안되지? */
+
+
+.article06-title{
+    font-size: 62px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.p08-title{
+    background-image:url('https://image.hm.com/content/dam/sustainability-site/take-care/9035C-teaser-3x2-wash-with-care.jpg?imwidth=564');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 639px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.article08-title{
+    font-size: 42px;
+    font-weight: 300;
+    margin-top: 30px;
+    
+}
+
+.p08-title > p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+/*Main end*/
+
+/*Main - MAGAZINE-start*/
+
+.magazine{
+    background-color: #F4EDDD;
+    width: 100vw;
+    transform:translateX(-12%);
+    /*배경 색깔 가로로 짝 이어지게 하려고 이렇게 했는데 맞나 이게 */
+    padding: 30px;
+}
+
+.magz-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.magz-title{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.magz-title-container > p {
+    font-size: 0.8rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.magz-a{
+    font-size: 1rem;
+    text-decoration:underline;
+    font-weight: 400;
+
+}
+
+.mages-container > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.maz-subcontainer{
+    background-color: white;
+    /* border: 1px dotted yellow; */
+    width: 288px;
+    height: 392px;
+    margin: 10px;
+    padding: 0;
+    /*288*392*/
+}
+
+.maz-subcontainer article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.magz-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    flex-grow:1;
+}
+
+.magz-header{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.magz-header div{
+    font-size: 1.2rem;
+}
+
+
+.magz-pic01, .magz-pic02, .magz-pic03{
+    background-color: red;
+    height: 192px;
+    width: 100%;
+}
+
+.magz-pic01{
+    background-image:url('https://image.hm.com/content/dam/hm-magazine-2023/april_2023/2007-henrick-event/2007-Henrick-Event-top-teaser.jpg?imwidth=264');
+}
+
+.magz-pic02{
+    background-image:url('https://image.hm.com/content/dam/hm-magazine-2023/march_2023/4077-innovation-kids/4077-Magazine-Top-image-1688x1126-1.jpg?imwidth=657');
+    background-size: cover;
+}
+
+.magz-pic03{
+    background-image:url('https://image.hm.com/content/dam/hm-magazine-2023/march_2023/4046/4067-3x2-Magazine-Article-Top-image-1688x1126-.jpg?imwidth=657');
+    background-size:cover;
+}
+
+/*Main - MAGAZINE-end*/
