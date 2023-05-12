@@ -1,0 +1,501 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(250, 249, 248);
+}
+
+nav{
+}
+
+.topNav{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 40px 40px;
+}
+
+.topNav > ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0;
+}
+
+.menuIcon:hover{
+  color: red;
+
+}
+
+.clientService{
+  width: 300px;
+  font-size: 13px;
+}
+
+.clientShopping{
+  width: 250px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.mainLogo > img{
+  width: 70px;
+  height: 40px;
+}
+
+.hide{
+  display: none;
+}
+
+.loginMiniPage{
+  background-color: rgb(250, 249, 248);
+  position: absolute;
+  right: 225px;
+  top: 80px;
+  width: 250px;
+  height: 180px;
+  padding: 20px 20px;
+  z-index: 1;
+  box-shadow: 0 5px 10px #ccc;
+}
+
+.loginMiniPage button{
+  width: 210px;
+  height: 50px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.loginMiniPage button:hover{
+  background-color: #333;
+}
+
+.loginMiniPage p{
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.loginMiniPage  span{
+  font-size: 11px;
+}
+
+.shoppingBagMini{
+  background-color: #fff;
+  width: 300px;
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  padding: 10px 0;
+}
+
+.shoppingBagMini > p {
+  line-height: 45px;
+  font-size: 14px;
+  padding: 5px 30px;
+}
+.shoppingBagMini > p > span{
+  float: right;
+}
+
+.bottomNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-left: 555px;
+  margin-right: 70px;
+}
+
+.category{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  /* margin: 0 auto; */
+}
+
+.category > li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.clientServicePadding{
+  padding-left: 10px;
+}
+
+.itemSearch{
+  border-bottom: 1px solid #333;
+}
+
+.itemSearch > input {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px 10px 10px;
+}
+
+.itemSearch > input:focus{
+  outline: none;
+}
+
+
+/* Main */
+main{
+  max-width: 1008px;
+  text-align: center;
+  margin: 50px auto 0;
+  padding: 0 24px;
+}
+
+main > div {
+  margin-bottom: 30px;
+}
+
+.notice{
+  padding-bottom: 30px;
+  font-size: 13px;
+}
+
+.notice > a:hover{
+  text-decoration: underline;
+}
+
+.bigBanner{
+  width: 100%;
+  position: relative;
+}
+
+.bigBannerImg{
+  width: 100%;
+}
+
+.bigBannerH1-1{
+  color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  font-size: 40px;
+}
+
+.bigBannerP-1{
+  color: #fff;
+  font-size: 13px;
+  position: absolute;
+  top: 75%;
+  left:40%;
+}
+
+.bigBannerBtn-1{
+  font-size: 15px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+}
+
+/* small Banner */
+
+.smallBanner{
+  background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/LOCAL%20ACTIVITIES/2023_s07/april_2023/GW_Offer_1920x640.jpg]&scale=size[960]&sink=format[jpeg],quality[80]);
+  width: 100%;
+  height: 230px;
+  position: relative;
+}
+
+
+
+.smallBannerH1{
+  color: #fff;
+  padding: 20px 30px 0;
+}
+
+.smallBannerP{
+  color: #fff;
+  font-size: 12px;
+}
+
+.smallBannerUl{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 60px;
+  padding: 0 170px;
+}
+
+.smallBannerUl > li{
+  background-color: #fff;
+}
+
+.smallBannerUl > li > a{
+  padding: 10px;
+  display: block;
+}
+
+
+/* big Banner 2 */
+
+.bigBannerImg{
+  filter: brightness(85%)  
+}
+
+.bigBannerH1-2{
+  position: absolute;
+  color: #fff;
+  top: 80%;
+  left: 10%;
+  font-size: 23px;
+}
+
+.bigBannerUl-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  top: 88%;
+  left: 44%;
+}
+
+.bigBannerLi-2{
+  font-size: 15px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: none;
+}
+
+.bigBannerLi-2 > a{
+  display: block;
+}
+
+/* 베스트 아이템 */
+.bestItems {
+  overflow: hidden;
+}
+
+.bestItems > h1{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.bestItemsUl{
+  padding: 0;
+  width: 1968px;
+}
+
+.bestItemsLi{
+  padding: 0 10px;
+  display: inline-block;
+  width: 123px;
+}
+/* 가로 정렬하고 싶어서 float: left 해봤는데 ul에서 떠버려서 display: inline-block으로*/
+
+.bestItemImg{
+  width: 99px;
+  height: 99px;
+}
+
+.bestItemCmt{
+  font-size: 13px;
+  width:99px;
+}
+
+/* newItems */
+
+.newItems > h1{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 200;
+}
+.newItems ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 60px;
+  padding:0 300px 0 0;
+}
+
+.newItems ul > li{
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #333;
+}
+
+.newItems ul > li > a{
+  padding: 10px 15px;
+  display: block;
+}
+
+/* big Banner3 */
+
+.bigBannerH1-3{
+  position: absolute;
+  top: 30px;
+  left: 300px;
+  font-weight: normal;
+}
+
+.bigBannerP-3{
+  position: absolute;
+  top: 75px;
+  left: 303px;
+  font-size: 20px;
+}
+
+.bigBannerUl-3{
+  position: absolute;
+  top: 140px;
+  left: 380px;
+}
+
+.bigBannerLi-3{
+  background-color: #222;
+}
+
+.bigBannerLi-3 > a{
+  color: #fff;
+  padding: 7px;
+  display: block;
+}
+
+/* big Banner 4 */
+
+.bigBannerH1-4{
+  position: absolute;
+  bottom: 150px;
+  left: 280px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.bigBannerP-4{
+  position: absolute;
+  bottom: 115px;
+  left: 285px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.bigBannerUl-4{
+  position: absolute;
+  bottom: 50px;
+  left: 400px;
+}
+
+.bigBannerLi-4{
+  background-color: #fff;
+}
+
+.bigBannerLi-4 > a{
+  color: #333;
+  padding: 7px;
+  display: block;
+}
+
+/* Magazine */
+
+section{
+  background-color: antiquewhite;
+}
+
+.magazineH1{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.magazineP{
+  font-size: 12px;
+}
+
+.magazineMore{
+  font-size: 15px;
+  padding: 10px 0;
+  display: block;
+  text-decoration: underline;
+}
+
+.magazineUl{
+  display: flex;
+  justify-content: space-around;
+  align-items:baseline;
+  padding: 40px 0;
+}
+
+.magazineLi{
+  width: 288px;
+  height: 400px;
+  background-color: #fff;
+  position: relative;
+}
+
+.magazineLi > img{
+  width: 100%;
+}
+
+.magazineLi > p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.magazineLi > h3 {
+  font-size: 15px;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.magazineLi > a {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  font-size: 13px;
+}
+
+
+/* footer */
+footer{
+  background-color: #e4e4e4;
+  text-align: left;
+  margin-top: 30px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 13px;
+  padding: 70px 0 0 0;
+  width: 960px;
+
+}
+
+footer li {
+  font-size: 12px;
+}
+
+.footerListName{
+  padding-bottom: 20px;
+}
+
+.footerList{
+  padding: 0;
+  line-height: 30px;
+}
+
